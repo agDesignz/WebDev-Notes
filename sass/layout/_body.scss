@@ -6,13 +6,14 @@
   margin-top: 6rem;
   position: relative;
 
-  &__outline {
+  &__left {
     width: 20%;
     padding: 3rem 6rem;
     position: fixed;
+    margin: auto;
   }
 
-  &__content {
+  &__right {
     flex: 1;
     padding: 3rem;
     margin-left: 20%;

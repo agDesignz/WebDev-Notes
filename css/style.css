@@ -49,6 +49,8 @@ pre {
   background-color: #2B2B2B;
   color: #F2F2F2;
   font-size: 1.5rem;
+  margin: 2.5rem 0;
+  border-radius: 3px;
 }
 
 .css-code span {
@@ -61,12 +63,13 @@ pre {
   margin-top: 6rem;
   position: relative;
 }
-.main__outline {
+.main__left {
   width: 20%;
   padding: 3rem 6rem;
   position: fixed;
+  margin: auto;
 }
-.main__content {
+.main__right {
   flex: 1;
   padding: 3rem;
   margin-left: 20%;
@@ -124,6 +127,9 @@ pre {
   width: 100%;
 }
 
+.outline {
+  margin: auto;
+}
 .outline__title {
   color: #C84B31;
   font-size: 3rem;

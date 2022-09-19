@@ -1,6 +1,7 @@
 @use "../abstracts/variables" as v;
 
 .outline {
+  margin: auto;
 
   &__title {
     color: v.$color-secondary;
