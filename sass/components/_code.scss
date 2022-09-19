@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as v;
+
+pre {
+  background-color: v.$color-grey-dark;
+  color: v.$color-grey-light;
+  font-size: 1.5rem;
+}
+.css-code span {
+  color: v.$color-secondary;
+}

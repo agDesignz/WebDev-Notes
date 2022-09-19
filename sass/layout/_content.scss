@@ -1,0 +1,11 @@
+@use "../abstracts/variables" as v;
+
+.content {
+  max-width: 80rem;
+  margin: auto;
+
+  &__heading {
+    margin-bottom: 1.5rem;
+    color: v.$color-primary-light;
+  }
+}

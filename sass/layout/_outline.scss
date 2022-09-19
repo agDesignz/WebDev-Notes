@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as v;
+
+.outline {
+
+  &__title {
+    color: v.$color-secondary;
+    font-size: v.$h2-size;
+    margin-bottom: 1rem;
+  }
+
+  &__nav {
+
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      display: block;
+      text-decoration: none;
+      font-size: v.$default-font-size;
+      color: v.$color-grey-medium-light;
+      line-height: 1.8;
+    }
+
+    &:hover {
+      color: v.$color-grey-dark;
+    }
+
+  }
+}

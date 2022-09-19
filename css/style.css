@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2B2B2B;
+  box-sizing: border-box;
+}
+
+.header__title {
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.heading-2 {
+  font-size: 3rem;
+}
+
+.heading-3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #423F3E;
+}
+p:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+pre {
+  background-color: #2B2B2B;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+}
+
+.css-code span {
+  color: #C84B31;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  margin-top: 6rem;
+  position: relative;
+}
+.main__outline {
+  width: 20%;
+  padding: 3rem 6rem;
+  position: fixed;
+}
+.main__content {
+  flex: 1;
+  padding: 3rem;
+  margin-left: 20%;
+}
+
+.content {
+  max-width: 80rem;
+  margin: auto;
+}
+.content__heading {
+  margin-bottom: 1.5rem;
+  color: #405c89;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem 6rem;
+  line-height: 1;
+  display: flex;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(64, 92, 137, 0.85), rgba(30, 44, 66, 0.85));
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 0.5rem #191919;
+  color: #ECDBBA;
+}
+.header__link:link, .header__link:visited {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
+.header__link:link:not(:last-child), .header__link:visited:not(:last-child) {
+  margin-right: 2rem;
+}
+.header__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ECDBBA;
+  transition: all 0.3s;
+}
+.header__link:active::after, .header__link:hover::after {
+  width: 100%;
+}
+
+.outline__title {
+  color: #C84B31;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.outline__link:link, .outline__link:visited {
+  display: block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767d89;
+  line-height: 1.8;
+}
+.outline__link:hover {
+  color: #2B2B2B;
+}
+
+/*# sourceMappingURL=style.css.map */
