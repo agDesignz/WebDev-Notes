@@ -7,8 +7,8 @@
   position: relative;
 
   &__left {
-    width: 20%;
-    padding: 3rem 6rem;
+    width: 30%;
+    padding: 3rem 1rem 3rem 11rem;
     position: fixed;
     margin: auto;
   }
@@ -16,6 +16,6 @@
   &__right {
     flex: 1;
     padding: 3rem;
-    margin-left: 20%;
+    margin-left: 30%;
   }
 }
