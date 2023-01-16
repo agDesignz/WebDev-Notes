@@ -1,17 +1,7 @@
 @use "../abstracts/variables" as v;
 
 .outline {
-  margin: auto;
-
-  &__title {
-    color: v.$color-secondary;
-    font-size: v.$h2-size;
-    margin-bottom: 1rem;
-  }
-
-  &__nav {
-
-  }
+  text-align: right;
 
   &__link {
     &:link,
@@ -19,7 +9,7 @@
       display: block;
       text-decoration: none;
       font-size: v.$default-font-size;
-      color: v.$color-grey-medium-light;
+      color: v.$color-grey-medium;
       line-height: 1.8;
     }
 

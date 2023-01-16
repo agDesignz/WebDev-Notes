@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+"content<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,85 +18,86 @@
 <body>
 
   <header class="header">
-    <h1 class="header__title">WebDev Notes</h1>
-    <nav class="header__nav">
-      <a href="#" class="header__link">CSS/SASS</a>
-      <a href="#" class="header__link">Javascript</a>
-      <a href="#" class="header__link">Node.js</a>
-    </nav>
-
+    <div class="header__container container">
+      <h1 class="header__title">dev_resources</h1>
+      <nav class="header__nav nav">
+        <a href="#" class="nav__link nav__link--header">WordPress</a>
+        <a href="#" class="nav__link nav__link--header">CSS/SASS</a>
+        <a href="#" class="nav__link nav__link--header">Javascript</a>
+        <a href="#" class="nav__link nav__link--header">Node.js</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="main">
-    <div class="main__left">
-      <div class="outline">
-        <h2 class="outline__title heading-secondary">CSS/SASS</h2>
-        <nav class="outline__nav">
-          <a href="#" class="outline__link">First Part</a>
-          <a href="#" class="outline__link">Second Part</a>
-          <a href="#" class="outline__link">Third Part</a>
+  <main class="content">
+
+    <div class="content__container">
+
+      <div class="content__side content__side--left">
+        <nav class="content__nav nav">
+          <a href="#" class="nav__link nav__link--content">CSS/SASS</a>
+          <a href="#" class="nav__link nav__link--content">Javascript</a>
+          <a href="#" class="nav__link nav__link--content">Node.js</a>
         </nav>
+      </div>
+
+      <div class="content__center">
+
+        <div class="notes">
+          <h2 class="notes__heading heading-2">Main heading here</h2>
+          <p class="notes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 class="notes__heading heading-3">Sub-heading goes here</h3>
+          <p class="notes__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <pre class="css-code">
+          <code>
+
+            <span>.main</span> {
+              width: 100%;
+              display: flex;
+              margin-top: 6rem;
+            }
+
+            <span>.outline </span>{
+              width: 20%;
+            }
+
+            <span>.content</span> {
+              flex: .8;
+            }
+
+          </code>
+        </pre>
+
+        <h2 class="notes__heading heading-2">Main heading here</h2>
+        <p class="notes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3 class="notes__heading heading-3">Sub-heading goes here</h3>
+        <p class="notes__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p class="codepen" data-height="600" data-default-tab="css" data-slug-hash="mdpNzmX" data-user="mnartstuff" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/mnartstuff/pen/mdpNzmX">
+                float-grid</a> by mnartstuff (<a href="https://codepen.io/mnartstuff">@mnartstuff</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </div><!-- end of .content -->
+
+      </div>
+
+      <div class="content__side content__side--right">
+        <div class="content__outline outline">
+          <nav class="outline__nav">
+            <a href="#" class="outline__link">First Part</a>
+            <a href="#" class="outline__link">Second Part</a>
+            <a href="#" class="outline__link">Third Part</a>
+          </nav>
+        </div>
       </div>
 
     </div>
 
-    <div class="main__right">
-
-      <div class="content">
-        <h2 class="content__heading heading-2">Main heading here</h2>
-        <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <h3 class="content__heading heading-3">Sub-heading goes here</h3>
-        <p class="content__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <pre class="css-code">
-        <code>
-
-          <span>.main</span> {
-            width: 100%;
-            display: flex;
-            margin-top: 6rem;
-          }
-
-          <span>.outline </span>{
-            width: 20%;
-          }
-
-          <span>.content</span> {
-            flex: .8;
-          }
-
-        </code>
-      </pre>
-
-      <h2 class="content__heading heading-2">Main heading here</h2>
-      <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h3 class="content__heading heading-3">Sub-heading goes here</h3>
-      <p class="content__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    <pre class="css-code">
-      <code>
-
-        <span>.main</span> {
-          width: 100%;
-          display: flex;
-          margin-top: 6rem;
-        }
-
-        <span>.outline </span>{
-          width: 20%;
-        }
-
-        <span>.content</span> {
-          flex: .8;
-        }
-
-      </code>
-    </pre>
-      </div><!-- end of .content -->
-
-    </div>
 
   </main>
 

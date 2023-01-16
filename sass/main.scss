@@ -8,8 +8,10 @@
 @use "base/utilities";
 
 @use "components/code";
+@use "components/navigation";
+@use "components/outline";
 
-@use "layout/body";
 @use "layout/content";
 @use "layout/header";
-@use "layout/outline";
+
+@use "pages/notes";

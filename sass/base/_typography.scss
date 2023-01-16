@@ -8,23 +8,18 @@ body {
   box-sizing: border-box;
 }
 
-.header__title {
-  font-family: v.$font-serif;
-  font-weight: 400;
-  font-size: v.$h1-size;
-}
-
 .heading-2 {
   font-size: v.$h2-size;
+  color: v.$color-primary-dark;
 }
 
 .heading-3 {
   font-size: v.$h3-size;
+  color: v.$color-primary-light;
 }
 
 p {
   font-size: v.$default-font-size;
-  color: v.$color-grey-medium;
   &:not(:last-child) {
     margin-bottom: 1.5rem;
   }
